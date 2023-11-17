@@ -34,6 +34,8 @@ getwd()
 
 # confirm subdirectories
 dir.create("./data", showWarnings = TRUE)
+dir.create("./output", showWarnings = TRUE)
+dir.create("./scripts", showWarnings = TRUE)
 
 ################################
 # Working environment
