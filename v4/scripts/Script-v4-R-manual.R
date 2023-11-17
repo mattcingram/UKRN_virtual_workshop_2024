@@ -23,6 +23,22 @@
 # -generates a bar graph showing group means of income by # race and sex
 # -saves the bar graph in a .png file, and stores it in the # "Output" folder
 
+################################
+# Directory structure
+################################
+
+# set working directory (here, "v4" for "version4")
+getwd()
+setwd("./v4")
+getwd()
+
+# confirm subdirectories
+dir.create("./data", showWarnings = TRUE)
+
+################################
+# Working environment
+################################
+
 # Clear the environment
 rm(list = ls())
 
@@ -30,8 +46,15 @@ rm(list = ls())
 library("tidyverse")
 library("writexl")
 
+################################
+# DATA EXERCISE
+################################
+
 # Read the data in ACS2018Extract.csv into a data frame, using a relative directory path to indicate that the .csv file is stored in the Data folder 
-ACS2018Extract<-read_csv("Data/ACS2018Extract.csv")
+ACS2018Extract<-read_csv("data/ACS2018Extract.csv")
+
+# if loading data from web:
+ACS2018Extract<-read_csv("")
 
 # Construct the table of mean income by race and sex
 table<-ACS2018Extract |>
@@ -46,7 +69,7 @@ table<-ACS2018Extract |>
 table
 
 # Save the table in a .csv file, using a relative directory path to indicate the file should be saved in the Output folder
-write.csv(table, "Output/MeanIncomes.csv")
+write.csv(table, "output/MeanIncomes.csv")
 
 # Construct the bar graph of mean income by race and sex
 graph<-ggplot(table, aes(race, mean_income))+geom_col(aes(fill = sex), position="dodge")
@@ -55,4 +78,6 @@ graph<-ggplot(table, aes(race, mean_income))+geom_col(aes(fill = sex), position=
 graph
 
 # Save the bar graph in a .png file, using a relative directory path to indicate the file should be saved in the Output folder
-ggsave("Output/MeanIncomes.png")
+ggsave("output/MeanIncomes.png")
+
+# end
