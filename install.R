@@ -1,5 +1,3 @@
-# packages 
-mypackages <- c("tidyverse", "writexl")
-install.packages(mypackages, verbose=TRUE)
-# alternative syntax, or to install additional packages
-# install.packages(c("pacman"))
+# install one package per line
+install.packages("tidyverse")
+install.packages("writexl")
