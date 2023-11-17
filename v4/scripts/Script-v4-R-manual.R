@@ -54,7 +54,8 @@ library("writexl")
 ACS2018Extract<-read_csv("data/ACS2018Extract.csv")
 
 # if loading data from web:
-ACS2018Extract<-read_csv("")
+# note: be sure to select "raw" data from GitHub to avoid loading HTML
+ACS2018Extract<-read_csv("https://raw.githubusercontent.com/mattcingram/UKRN_virtual_workshop_2024/main/v4/data/ACS2018Extract.csv")
 
 # Construct the table of mean income by race and sex
 table<-ACS2018Extract |>
@@ -72,12 +73,19 @@ table
 write.csv(table, "output/MeanIncomes.csv")
 
 # Construct the bar graph of mean income by race and sex
-graph<-ggplot(table, aes(race, mean_income))+geom_col(aes(fill = sex), position="dodge")
+graph <- ggplot(table, aes(race, mean_income))+geom_col(aes(fill = sex), position="dodge")
 
 # Display the bar graph of mean income by race and sex
 graph
 
 # Save the bar graph in a .png file, using a relative directory path to indicate the file should be saved in the Output folder
 ggsave("output/MeanIncomes.png")
+
+###############################
+# SAVE WORKING DATA
+###############################
+
+save.image("./data/working.RData")
+# can now export this file and others to save elsewhere
 
 # end
