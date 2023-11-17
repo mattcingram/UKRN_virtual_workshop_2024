@@ -5,4 +5,4 @@ dependencies:
   - r-tidyverse
   - r-writexl
   - r-zip
-  - zip
+  
