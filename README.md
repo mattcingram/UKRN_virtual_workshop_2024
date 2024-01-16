@@ -2,11 +2,11 @@
 
 Click on either of the two Binder logos below.
 
-Main: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcingram/UKRN_virtual_workshop_2024/main)
+- Main: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcingram/UKRN_virtual_workshop_2024/main):  this links to a virtual container with a [Jupyter](https://jupyter.org/) notebook environment. 
 
-Rstudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcingram/UKRN_virtual_workshop_2024/main?urlpath=rstudio)
+- Rstudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcingram/UKRN_virtual_workshop_2024/main?urlpath=rstudio)
 
-The first one ("Main") links to a virtual container with a [Jupyter](https://jupyter.org/) notebook environment.  
+ 
 The second one ("Rstudio") links to a virtual container with an [RStudio](https://posit.co/products/open-source/rstudio/) environment.
 
 In either case, you will see a window with a file directory containing this README document and a folder labeled "v4".  
