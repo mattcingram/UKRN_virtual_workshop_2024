@@ -11,7 +11,7 @@ The second one ("Rstudio") links to a virtual container with an [RStudio](https:
 
 In either case, you will see a window with a file directory containing this README document and a folder labeled "v4".  
 The v4 folder contains the exercise materials for this session.  
-To begin, go to v4 folder, open "scripts" subfolder, and open R script there. Code will set "v4" as working directory, and users can go from there.
+To begin, go to v4 folder, open "scripts" subfolder, and open R script there. Code will set "v4" as working directory, and users can go from there.  
 __Note__: if plots are not showing in RStudio window, graphs can still be saved to file and opened.
   
 To read more about containers and how Binder works with [Docker](https://docker.com/) images and [JupyterHub](https://jupyter.org/hub) servers, see [mybinder.org](https://mybinder.org).
