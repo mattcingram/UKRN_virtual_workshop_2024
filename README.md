@@ -2,7 +2,7 @@
 
 Click on either of the two Binder logos below.
 
-JupyterLab: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcingram/UKRN_virtual_workshop_2024/main)
+Main: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcingram/UKRN_virtual_workshop_2024/main)
 
 Rstudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattcingram/UKRN_virtual_workshop_2024/main?urlpath=rstudio)
 
