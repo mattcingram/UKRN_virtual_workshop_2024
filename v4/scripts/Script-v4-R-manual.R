@@ -4,7 +4,7 @@
 #
 # (1) MANUAL APPROACH
 #
-# 1) create a folder on your computer calledTHERE IS A FOLDER ON YOUR COMPUTER NAMED "<YourName>Version4".
+# create a folder on your computer called "<YourName>Version4".
 #
 # 2) There are three subfolders in the top level 
 # of "<YourName>Version4":
