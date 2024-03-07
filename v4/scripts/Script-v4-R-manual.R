@@ -1,6 +1,10 @@
-# BEFORE EXECUTING THIS SCRIPT, BE SURE THAT:
-#   
-# 1) THERE IS A FOLDER ON YOUR COMPUTER NAMED "<YourName>Version4".
+# BEFORE EXECUTING THIS SCRIPT, BE SURE TO ESTABLISH YOUR WORKING DIRECTORY (i.e., PROEJECT DIRECTORY)
+#  
+# You can do this one of ways: (1) manually or (2) from this command file
+#
+# (1) MANUAL APPROACH
+#
+# 1) create a folder on your computer calledTHERE IS A FOLDER ON YOUR COMPUTER NAMED "<YourName>Version4".
 #
 # 2) There are three subfolders in the top level 
 # of "<YourName>Version4":
