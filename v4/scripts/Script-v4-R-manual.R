@@ -8,11 +8,12 @@
 # In RStudio, you would then go the menu bar at the top of the screen, click on the 'Session' tab, select 'Set Working Directory', select 'Choose Directory', and then navigate the windows to set the folder location.
 # You could use the Session tab this way in the virtual RStudio environment.
 #
-# Also, ere are three subfolders in the top level 
-# of "<YourName>Version4":
-# ----Data
-# ----Scripts
-# ----Output
+# Within the working directory, you also create three subfolders:
+# ----data
+# ----code
+# ----output
+#
+# ** alternately, you could call the 'code' subfolder 'scripts', and you could divide the 'output' folder into 'tables' and 'figures'
 #
 # 3)"<YourName>Version4" IS DESIGNATED AS R'S WORKING
 # DIRECTORY. IF NECESSARY, MANUALLY SET THE WORKING
