@@ -1,6 +1,8 @@
 # BEFORE EXECUTING THIS SCRIPT, BE SURE TO ESTABLISH YOUR WORKING DIRECTORY (i.e., PROJECT DIRECTORY)
 #  
 # You can do this several ways: (1) manual approach, (2) code approach, hardcoding filepath for working directory in command file, and (3) code approach, using relative filepaths in command file.
+# All three approaches are outlined below.
+# The key idea is that establishing a working directory is a core TIER principle and a good reproducibility practice.
 #
 # (1) MANUAL APPROACH
 # In this approach, you create a folder on your computer called "<YourName>Version4".
@@ -15,20 +17,23 @@
 #
 # ** alternately, you could call the 'code' subfolder 'scripts', and you could divide the 'output' folder into 'tables' and 'figures'
 #
-# 3)"<YourName>Version4" IS DESIGNATED AS R'S WORKING
-# DIRECTORY. IF NECESSARY, MANUALLY SET THE WORKING
-# DIRECTORY TO "<YourName>Version4".
-# 
-# AND
-# 
-# 4) A COPY OF ACS2018Extract.csv IS SAVED IN THE Data SUBFOLDER OF "<YourName>Version4".
-
-# This script:
+# A copy of ACS2018Extract.csv is saved in the data subfolder.
+#
+# The current script does the following:
 # -reads the 2018 ACS data extract into a data frame
 # -creates a table of group means of income by race and sex
 # -saves the table in a .csv file, and stores it in the # "Output" folder.
 # -generates a bar graph showing group means of income by # race and sex
 # -saves the bar graph in a .png file, and stores it in the # "Output" folder
+
+# (2) CODE APPROACH, HARDCODING FILEPATH
+# In this approach, you create a folder on your computer called "<YourName>Version4".
+# This is your working directory.
+
+# (1) CODE APPROACH, USING RELATIVE FILEPATH
+# In this approach, you create a folder on your computer called "<YourName>Version4".
+# This is your working directory.
+
 
 ################################
 # Directory structure
