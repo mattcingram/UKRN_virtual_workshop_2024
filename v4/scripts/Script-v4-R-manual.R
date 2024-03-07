@@ -1,15 +1,21 @@
-#####################################################################################################
-# BEFORE EXECUTING THIS SCRIPT, BE SURE TO ESTABLISH YOUR WORKING DIRECTORY (i.e., PROJECT DIRECTORY)
-#####################################################################################################
+###########################################################################
+# BEFORE EXECUTING THIS SCRIPT, BE SURE TO ESTABLISH YOUR WORKING DIRECTORY 
+###########################################################################
 #
-# You can do this several ways: (1) manual approach, (2) code approach, hardcoding filepath for working directory in command file, and (3) code approach, using relative filepaths in command file.
+# You can do this several ways: 
+# (1) manual approach, 
+# (2) code approach, hardcoding filepath for working directory in command file, and 
+# (3) code approach, using relative filepaths in command file.
 # All three approaches are outlined below.
-# The key idea is that establishing a working directory is a core TIER principle and a good reproducibility practice.
+# The key idea is that establishing a working directory is a core TIER principle 
+# and a good reproducibility practice.
 #
 # (1) MANUAL APPROACH
 # In this approach, you create a folder on your computer called "<YourName>Version4".
 # This is your working directory.
-# In RStudio, you would then go the menu bar at the top of the screen, click on the 'Session' tab, select 'Set Working Directory', select 'Choose Directory', and then navigate the windows to set the folder location.
+# In RStudio, you would then go the menu bar at the top of the screen, 
+# click on the 'Session' tab, select 'Set Working Directory', select 'Choose Directory', 
+# and then navigate the windows to set the folder location.
 # You could use the Session tab this way in the virtual RStudio environment.
 #
 # Within the working directory, you also create three subfolders:
@@ -17,7 +23,8 @@
 # ----code
 # ----output
 #
-# ** alternately, you could call the 'code' subfolder 'scripts', and you could divide the 'output' folder into 'tables' and 'figures'
+# ** alternately, you could call the 'code' subfolder 'scripts', and you could divide 
+# the 'output' folder into 'tables' and 'figures'
 #
 # A copy of ACS2018Extract.csv is saved in the data subfolder.
 #
