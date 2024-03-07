@@ -1,10 +1,11 @@
 # BEFORE EXECUTING THIS SCRIPT, BE SURE TO ESTABLISH YOUR WORKING DIRECTORY (i.e., PROEJECT DIRECTORY)
 #  
-# You can do this one of ways: (1) manually or (2) from this command file
+# You can do this several ways: (1) manual approach, (2) code approach, hardcoding filepath for working directory in command file, and (3) code approach, using relative filepaths in command file.
 #
 # (1) MANUAL APPROACH
-#
-# create a folder on your computer called "<YourName>Version4".
+# In this approach, you create a folder on your computer called "<YourName>Version4".
+# This is your working directory.
+# Within RStudio, you would then go the menu bar at the top of the screen, click on the 'Session' tab, select 'Set Working Directory', select 'Choose Directory', and then navigate the windows to the folder location.
 #
 # 2) There are three subfolders in the top level 
 # of "<YourName>Version4":
