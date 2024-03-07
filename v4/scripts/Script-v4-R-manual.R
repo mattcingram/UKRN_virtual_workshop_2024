@@ -1,5 +1,7 @@
+#####################################################################################################
 # BEFORE EXECUTING THIS SCRIPT, BE SURE TO ESTABLISH YOUR WORKING DIRECTORY (i.e., PROJECT DIRECTORY)
-#  
+#####################################################################################################
+#
 # You can do this several ways: (1) manual approach, (2) code approach, hardcoding filepath for working directory in command file, and (3) code approach, using relative filepaths in command file.
 # All three approaches are outlined below.
 # The key idea is that establishing a working directory is a core TIER principle and a good reproducibility practice.
