@@ -2,6 +2,12 @@
 # BEFORE EXECUTING THIS SCRIPT, BE SURE TO ESTABLISH YOUR WORKING DIRECTORY 
 ###########################################################################
 #
+# Typically, you would create a folder on your computer called "<YourName>Version4".
+# This is your working directory.
+#
+# You then need to tell R that this is your working directory.
+# That is, you need to set the working directory.
+#
 # You can do this several ways: 
 # (1) manual approach, 
 # (2) code approach, hardcoding filepath for working directory in command file, and 
@@ -10,13 +16,14 @@
 # The key idea is that establishing a working directory is a core TIER principle 
 # and a good reproducibility practice.
 #
+
 # (1) MANUAL APPROACH
-# In this approach, you would typically create a folder on your computer called "<YourName>Version4".
-# This is your working directory.
+
 # In RStudio, you would then go the menu bar at the top of the screen, 
 # click on the 'Session' tab, select 'Set Working Directory', select 'Choose Directory', 
 # and then navigate the windows to set the folder location.
-# You could use the Session tab this way in the virtual RStudio environment.
+# In a virtual RStudio environment online, you could also use the Session tab 
+# this way.
 #
 # Within the working directory, you also create three subfolders:
 # ----data
@@ -25,6 +32,8 @@
 #
 # ** alternately, you could call the 'code' subfolder 'scripts', and you could divide 
 # the 'output' folder into 'tables' and 'figures'
+#
+# Within the command file, you move among the folders by using relative filepaths.
 #
 # A copy of ACS2018Extract.csv is saved in the data subfolder.
 #
@@ -36,7 +45,7 @@
 # -saves the bar graph in a .png file, and stores it in the # "Output" folder
 
 # (2) CODE APPROACH, HARDCODING FILEPATH
-# In this approach, you create a folder on your computer called "<YourName>Version4".
+# In this approach, you would typically create a folder on your computer called "<YourName>Version4".
 # This is your working directory.
 
 # (1) CODE APPROACH, USING RELATIVE FILEPATH
