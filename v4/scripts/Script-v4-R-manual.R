@@ -11,7 +11,7 @@
 # and a good reproducibility practice.
 #
 # (1) MANUAL APPROACH
-# In this approach, you create a folder on your computer called "<YourName>Version4".
+# In this approach, you would typically create a folder on your computer called "<YourName>Version4".
 # This is your working directory.
 # In RStudio, you would then go the menu bar at the top of the screen, 
 # click on the 'Session' tab, select 'Set Working Directory', select 'Choose Directory', 
