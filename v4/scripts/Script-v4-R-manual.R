@@ -43,21 +43,30 @@
 # this way.
 #
 # (2) CODE APPROACH, HARDCODING FILEPATH
-# In this approach, you would typically create a folder on your computer called "<YourName>Version4".
-# This is your working directory.
+# To establish the project folder as the working directory, you would 
+# use the syntax "setwd()" to hardcode the filepath to the working 
+# directory.
+# For instance, see line 69 below in the next section, Directory Structure.
 
-# (1) CODE APPROACH, USING RELATIVE FILEPATH
-# In this approach, you create a folder on your computer called "<YourName>Version4".
-# This is your working directory.
+# (3) CODE APPROACH, USING RELATIVE FILEPATH
+# Navigate to the working directory and to the code subfolder, and open the 
+# R command file (.R extension).
+# If RStudio is installed, this automatically opens RStudio and working 
+# directory defaults to location of the command file.
+# To establish the project folder as the working directory, you would need 
+# to move up one level (i.e., move up from code subfolder to top level of 
+# working directory).
+# To do this, you would use the syntax "setwd("../")
+
 
 
 ################################
 # Directory structure
 ################################
 
-# set working directory (here, "v4" for "version4")
+# set working directory (here, "v4" stands for "version4")
 getwd()
-setwd("./v4")
+setwd("./v4")  # the syntax "./" tells are to start in the current directory
 getwd()
 
 # confirm subdirectories
