@@ -13,6 +13,7 @@ This folder is the __working directory__ for the project/session. Please see not
 This is a virtual environment, so there is no need to create a new folder for your working directory. You just need to tell R which folder to use as the working directory.
 
 To begin, go to v4 folder, open "scripts" subfolder, and open R script there. Code will set "v4" as working directory, and users can go from there.  
+
 __Note__: if plots do not show in RStudio window, graphs can still be saved to file and opened.
   
 To read more about containers and how Binder works with [Docker](https://docker.com/) images and [JupyterHub](https://jupyter.org/hub) servers, see [mybinder.org](https://mybinder.org).
