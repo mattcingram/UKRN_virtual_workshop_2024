@@ -58,7 +58,8 @@
 # working directory).
 # To do this, you would use the syntax "setwd("../")
 
-
+# NOTE: the default working directory in a binder virtual environment
+# is ""/home/jovyan"
 
 ################################
 # Directory structure
