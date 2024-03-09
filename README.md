@@ -14,7 +14,8 @@ This is a virtual environment, so there is no need to create a new folder for yo
 
 To begin, go to v4 folder, open "scripts" subfolder, and open R script there. Code will set "v4" as working directory, and users can go from there.  
 
-__Note__: if plots do not show in RStudio window, graphs can still be saved to file and opened.
+__Note__: if plots do not show in RStudio window, try using older version of R.
+Graphs can still be saved to file and opened.
   
 To read more about containers and how Binder works with [Docker](https://docker.com/) images and [JupyterHub](https://jupyter.org/hub) servers, see [mybinder.org](https://mybinder.org).
 
