@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - r-base=4.3
+  - r-base=4.2
   - r-tidyverse
   - r-writexl
   - r-zip
