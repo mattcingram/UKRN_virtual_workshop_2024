@@ -4,5 +4,3 @@ dependencies:
   - r-base=4.2
   - r-tidyverse
   - r-writexl
-  - r-zip
-  - r-pacman
