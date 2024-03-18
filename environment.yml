@@ -4,3 +4,6 @@ dependencies:
   - r-base=4.2
   - r-tidyverse
   - r-writexl
+  - r-markdown
+  - r-rmarkdown
+  - r-tinytex
