@@ -16,5 +16,7 @@ To begin, go to v4 folder, open "scripts" subfolder, and open R script there. Co
 
 __Note__: if get error that version of graphics driver does not work with current version of R, try using older version of R. If for any reason graphs do not show in plot window of RStudio, graphs can still be saved to file and opened.
   
-To read more about containers and how Binder works with [Docker](https://docker.com/) images and [JupyterHub](https://jupyter.org/hub) servers, see [mybinder.org](https://mybinder.org).
+To read more about how Binder works, see [mybinder.org](https://mybinder.org). Binder combines Docker containers and a JupyterHub server; to read more about containers with Docker, see [Docker](https://docker.com/). To read more about the Jupyter project, JupyterHub, and Jupyter notebooks, see [Jupyter](https://jupyter.org/).
+
+Acknowledgments: These materials were created as part of a collaboration with Richard Ball and Norm Medeiros of [Project TIER](https://www.projecttier.org/), based at Haverford College. I am also grateful for feedback from participants at the March 2024 UKRN/TIER workshop, especially Clement Lee of Newcastle University.
 
